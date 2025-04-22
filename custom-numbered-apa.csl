@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0">
+  <info>
+    <title>Custom Numbered APA Style</title>
+    <id>http://www.zotero.org/styles/custom-numbered-apa</id>
+    <link href="http://www.zotero.org/styles/custom-numbered-apa" rel="self"/>
+    <author>
+      <name>OpenAI Assistant</name>
+    </author>
+    <updated>2025-04-22T18:31:43+03:00</updated>
+    <summary>Numbered in-text citations with APA-style bibliography.</summary>
+  </info>
+  <citation>
+    <layout delimiter=", ">
+      <text variable="citation-number"/>
+    </layout>
+  </citation>
+  <bibliography>
+    <layout>
+      <text macro="author"/>
+      <text macro="date"/>
+      <text macro="title"/>
+      <text macro="container-title"/>
+      <text macro="publication-info"/>
+      <text macro="access"/>
+    </layout>
+  </bibliography>
+  <!-- Additional macros and formatting rules go here -->
+</style>
